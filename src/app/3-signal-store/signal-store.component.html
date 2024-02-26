@@ -1,0 +1,7 @@
+<h3>{{ store.message() }}</h3>
+Name: <input (ngModelChange)="store.setName($event)" [ngModel]="store.name()">
+
+<br/><br/>
+
+<button (click)="store.incrementTwice()">Increment Twice</button>
+

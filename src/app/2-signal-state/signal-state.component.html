@@ -1,0 +1,2 @@
+<h3>{{ state.greeting() }}, {{ state.name() }}!</h3>
+Name: <input (ngModelChange)="patchState(state, {name: $event})" [ngModel]="state.name()">

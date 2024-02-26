@@ -1,0 +1,8 @@
+<!-- without type="number", $event string will be written to signal<number> without any warning -->
+A = <input (ngModelChange)="varA.set($event)" [ngModel]="varA()" type="number"><br/>
+B = {{ varB() }}
+<button (click)="updateB1()">update sync</button>
+<button (click)="updateB2()">update async</button>
+<button (click)="varB.set(8)">reset</button>
+<br/><br/>
+C = A + B = {{ varA() }} + {{ varB() }} = {{ aPlusB() }}

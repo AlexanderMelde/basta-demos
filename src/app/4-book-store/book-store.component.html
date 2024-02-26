@@ -1,0 +1,30 @@
+<h2>Books</h2>
+
+<h3>Search Filter:</h3>
+<p>
+  Query:
+  <input (ngModelChange)="store.updateQuery($event)" [ngModel]="store.filter.query()">
+</p>
+<p>
+  Order:
+  <button (click)="store.toggleOrder()">{{ store.filter.order() }}</button>
+</p>
+<p>
+  <!-- The `DeepSignal` value can be read in the same way as `Signal`. -->
+  --> Filter is: {{ store.filter() | json }}
+</p>
+
+
+<h3>Results ({{ store.booksCount() }})</h3>
+@if (store.isLoading()) {
+  <p>Loading...</p>
+} @else {
+  <ul>
+    @for (book of store.sortedBooks(); track book.id) {
+      <li>
+        <b>{{ book.title }}</b> by {{ book.author }} ({{ book.id }})
+      </li>
+    }
+  </ul>
+}
+

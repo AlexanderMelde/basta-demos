@@ -1,0 +1,7 @@
+<h4>Data</h4>
+{{ store.data() }}
+<h4>CallState</h4>
+<p>{{ store.callState() }}</p>
+<p>Loading: {{ store.loading() }}, Loaded: {{ store.loaded() }}, Error: {{ store.error() }}</p>
+<h4>Actions</h4>
+<button (click)="store.loadNewData()">Load new Data</button>

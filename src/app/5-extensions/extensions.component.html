@@ -1,0 +1,8 @@
+<ul>
+  @for (task of tasksStore.entities(); track task.id) {
+    <li>
+      {{ task.name }}
+      <button (click)="tasksStore.toggleFinished(task.id)">{{ task.finished ? "Done" : "Open" }}</button>
+    </li>
+  }
+</ul>

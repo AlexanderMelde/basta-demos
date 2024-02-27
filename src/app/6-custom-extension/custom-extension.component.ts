@@ -27,6 +27,8 @@ export class CustomExtensionComponent {
         patchState(store, setLoaded())
       }
     }))
+    // Idee: Kombinieren mit withEntities und weiteren custom extensions "withUndoRedo", "withDataService", ...
+    //       um für CRUD komplett auf withMethods zu verzichten und Stores schnell und kompakt zu erstellen
   );
 
   protected store = new this.Store();

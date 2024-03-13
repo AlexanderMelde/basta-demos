@@ -65,7 +65,7 @@ Ermöglicht Zugriff auf Neural Processing Unit (NPU) für effiziente Ausführung
 Noch ist WebNN in Entwicklung, man kann aber WebGPU-Beispiele anschauen, die ähnlich aufgebaut sind und dann einfach noch schneller werden würden.
 
 - [Large Language Model Web-Demo (z.B. LLaMA 2 7B)](https://webllm.mlc.ai/)
-- [Stable Diffusion Web-Demo](https://webllm.mlc.ai/)
+- [Stable Diffusion Web-Demo](https://websd.mlc.ai/)
 - [Weitere Demos](https://webmachinelearning.github.io/webnn-samples-intro/)
 
 ## Quellen

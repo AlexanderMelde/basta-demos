@@ -51,7 +51,7 @@ npx playwright test --ui
 - cy2pw by Playwright Community (Experimental, [GitHub](https://github.com/playwright-community/cy2pw), [Demo](https://demo.playwright.dev/cy2pw/))
 - cypress-to-playwright by Jose Cabrera ([GitHub](https://github.com/11joselu/cypress-to-playwright))
 
-## Sources
+## Quellen
 
 - Playwright [Documentation](https://playwright.dev/docs/intro)
 - BASTA! Presentation by Rainer Hahnekamp ([Slides](https://speakerdeck.com/rainerhahnekamp/basta-spring-2024-cypress-und-playwright), [Code](https://github.com/rainerhahnekamp/basta-spring-2024-cypress-and-playwright))

@@ -1,19 +1,17 @@
-# SignalStore Demos
+# BASTA! Demos
 
-Demos built using examples from:
+Nach meinem Besuch auf der Konferenz _BASTA! Spring 2024_ habe ich für meine Kollegen kurze Impulsvorträge (_TED Talks_) mit interaktiven Demos vorbereitet und präsentiert.
 
-- [NGRX Documentation](https://ngrx.io/guide/signals/signal-store)
-- [BASTA! Presentation by Manfred Steyer](https://www.angulararchitects.io/en/presentations/leveraging-the-new-ngrx-signal-store-2/) ([Slides](https://speakerdeck.com/manfredsteyer/the-new-ngrx-signal-store-for-angular-3-plus-n-flavors), [Code](https://github.com/manfredsteyer/standalone-example-cli/tree/arc-signal-store-2))
+In diesem Repository befinden sich Demos und präsentierbare Readme-Dateien zu den folgenden Themen:
 
-## Running
+- [Angular Signal Stores](src/README.md): Je mehr Signale man benutzt, desto unübersichtlicher kann es werden wer von wem abhängig ist.
+  Ich möchte euch ein paar Möglichkeiten vorstellen, wie Signale organisiert werden können.
 
-You can run this project using `ng serve`. The result can be seen at `http://localhost:4200/`.
+- [Playwright statt Cypress?](tests/README.md): Im Wettbewerb der Testframeworks fordert Playwright derzeit Cypress heraus, und schlägt sich dabei ziemlich gut.
+  Schnell, kostenlos, made by Microsoft und ein großer Funktionsumfang.
+  Ich möchte euch die Vor- und Nachteile von Playwright vorstellen und die Diskussion anstoßen, ob sich ein Wechsel lohnen könnte.
 
-## Developing
+- [WebNN - KI im Browser](webnn/README.md): Es ist eine neue Browser-Schnittstelle in Entwicklung die - vergleichbar mit WebGPU - Neural Engines an Webapps durchreicht.
+  In dieser Runde möchte ich ein paar Ideen und technische Möglichkeiten vorstellen und diskutieren, ob solche Anwendungen auch bei uns in Frage kämen.
 
-You can use the following command to create a new component:
-
-```
-ng g c my-component-name -c=OnPush --skip-tests --style=none
-```
-
+Die Informationen basieren auf den offiziellen Dokumentationen sowie Konferenz-Präsentationen, die in den jeweiligen Readmes verlinkt sind.
